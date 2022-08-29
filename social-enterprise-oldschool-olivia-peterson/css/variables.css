@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--colour-2);
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: "DentonCondensedTest-Bold";
+    src: url(../fonts/DentonCondensedTest-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "DentonCondensedTest-Regular";
+    src: url(../fonts/DentonCondensedTest-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "RationalDisplayDemo-Light";
+    src: url(../fonts/Rene\ Bieder\ -\ RationalDisplayDEMO-Light.woff) format("woff");
+}
+
+@font-face {
+    font-family: "RationalDisplayDemo-Semibold";
+    src: url(../fonts/Rene\ Bieder\ -\ RationalDisplayDEMO-SemiBold.woff) format("woff");
+}
+
+
+
+/* VARIABLES */
+
+:root {
+    --colour-1: #000000;
+    --colour-2: #f7efe2;
+    --colour-3: #3c8769;
+    --colour-4: #ffaecf;
+}
