@@ -101,53 +101,82 @@ section {
     font-weight: 500;
 }
 
-.block[data-block-section="2"].init {
-    left: calc(100vw - 20rem);
-}
-
-.block[data-block-section="2"].fixed {
+.block[section-indicator="1"].fixed {
     left: 0rem;
+    border-right: 0.2rem solid #000000;
+    border-left: unset;
+}
+
+.block[section-indicator="2"].init {
+    left: calc(100vw - 20rem);
     border-left: 0.2rem solid #000000;
+     border-right: unset;
 }
 
-.block[data-block-section="3"].init {
-    left: calc(100vw - 16rem);
-}
-
-.block[data-block-section="3"].fixed {
+.block[section-indicator="2"].fixed {
     left: 4rem;
+    border-left: unset;
+    border-right: 0.2rem solid #000000;
 }
 
-.block[data-block-section="4"].init {
-    left: calc(100vw - 12rem);
+.block[section-indicator="3"].init {
+    left: calc(100vw - 16rem);
+     border-right: unset;
+     border-left: 0.2rem solid #000000;
 }
 
-.block[data-block-section="4"].fixed {
+.block[section-indicator="3"].fixed {
     left: 8rem;
+    border-left: unset;
+    border-right: 0.2rem solid #000000;
 }
 
-.block[data-block-section="5"].init {
-    left: calc(100vw - 8rem);
+.block[section-indicator="4"].init {
+    left: calc(100vw - 12rem);
+     border-right: unset;
+     border-left: 0.2rem solid #000000;
 }
 
-.block[data-block-section="5"].fixed {
+.block[section-indicator="4"].fixed {
     left: 12rem;
+    border-left: unset;
+    border-right: 0.2rem solid #000000;
 }
 
-.block[data-block-section="6"].init {
-    left: calc(100vw - 4rem);
+.block[section-indicator="5"].init {
+    left: calc(100vw - 8rem);
+     border-right: unset;
+     border-left: 0.2rem solid #000000;
 }
 
-.block[data-block-section="6"].fixed {
+.block[section-indicator="5"].fixed {
     left: 16rem;
+    border-left: unset;
+    border-right: 0.2rem solid #000000;
 }
 
-.block[data-block-section="7"].init {
-    left: calc(100vw - 0rem);
+.block[section-indicator="6"].init {
+    left: calc(100vw - 4rem);
+     border-right: unset;
+     border-left: 0.2rem solid #000000;
 }
 
-.block[data-block-section="7"].fixed {
+.block[section-indicator="6"].fixed {
     left: 20rem;
+    border-left: unset;
+    border-right: 0.2rem solid #000000;
+}
+
+.block[section-indicator="7"].init {
+    left: calc(100vw - 0rem);
+     border-right: unset;
+     border-left: 0.2rem solid #000000;
+}
+
+.block[section-indicator="7"].fixed {
+    left: 24rem;
+    border-left: unset;
+    border-right: 0.2rem solid #000000;
 }
 
 
