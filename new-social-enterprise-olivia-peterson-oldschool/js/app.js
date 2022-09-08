@@ -4,13 +4,12 @@ const scroll = new LocomotiveScroll({
   direction: "horizontal",
 });
 
-let blocks = document.querySelectorAll(".block[section-indicator]");
+const blocks = document.querySelectorAll(".block[section-indicator]");
 scroll.on("scroll", (args) => {
   blocks.forEach((block) => {
-    let blockNumber = block.getAttribute("section-indicator");
-
+    const blockNumber = block.getAttribute("section-indicator");
     // Get corresponding data section
-    let dataSection = document.querySelector(
+    const dataSection = document.querySelector(
       `section[data-block-section='${blockNumber}']`
     );
 
