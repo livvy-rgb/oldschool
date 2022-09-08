@@ -73,6 +73,10 @@ section {
     left: -280px;
 }
 
+.landing-img {
+    margin-left: 2.5rem;
+}
+
 .title-who {
     font-family: "RationalDisplay-Light";
     font-size: 1.5rem;
@@ -152,6 +156,58 @@ box-shadow:  28px 28px 72px #ebe3d7,
     font-size: 2rem;
     margin-top: 18rem;
     margin-left: -7rem;
+}
+
+.blurb-3 {
+    font-family: "RationalDisplay-Light";
+    font-size: 2rem;
+    margin-top: 18rem;
+    margin-left: -9rem;
+}
+
+.number-3 {
+    font-family: "DentonCT-Bold";
+    font-size: 18rem;
+    margin-top: -6rem;
+    margin-left: -1rem;
+}
+
+.number-3:hover {
+    color: #ffaecf;
+   
+} 
+
+.blurb-4 {
+    font-family: "RationalDisplay-Light";
+    font-size: 2rem;
+    margin-top: 18rem;
+    margin-left: -8rem;
+}
+
+.number-5 {
+    font-family: "DentonCT-Bold";
+    font-size: 18rem;
+    margin-top: -6rem;
+    margin-left: -1rem;
+}
+
+.number-5:hover {
+    color: #ffaecf;
+   
+}
+
+.title-5{
+    font-family: "DentonCT-Bold";
+    font-size: 4rem;
+    margin-top: 12rem;
+    margin-left: -7.5rem;
+}
+
+.blurb-5 {
+    font-family: "RationalDisplay-Light";
+    font-size: 2rem;
+    margin-top: 18rem;
+    margin-left: -7.3rem;
 }
 
 
@@ -283,6 +339,111 @@ box-shadow:  28px 28px 72px #ebe3d7,
 }
 
 
+/* WHY PAGE */ 
+
+.nav-logo-why {
+  margin-left: 3.5rem;
+  margin-top: 0.8rem;
+}
 
 
+#why-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DentonCT-Bold";
+    font-size: 14rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--colour-1);
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: -1rem;
+}
 
+#why-quote:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DentonCT-Bold";
+    font-size: 14rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--colour-1);
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: -1rem;
+    color: var(--colour-4);
+}
+
+#why-quote-p {
+    font-family: "DentonCT-Regular";
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-align: left;
+    line-height: 3.2rem;
+    color: var(--colour-1);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: -1rem;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: var(--colour-1);
+}
+
+.contact-link:hover {
+    text-decoration: none;
+    color: var(--colour-4);
+}
+
+/* WHEN PAGE */
+
+#when-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DentonCT-Bold";
+    font-size: 12rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--colour-1);
+    padding-left: 110px;
+    padding-right: 60px;
+    margin-top: -1rem;
+}
+
+#when-quote:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DentonCT-Bold";
+    font-size: 12rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--colour-1);
+    padding-left: 110px;
+    padding-right: 60px;
+    margin-top: -1rem;
+    color: var(--colour-3);
+}
+
+strong {
+    font-size: 3rem; 
+}
+
+strong:hover {
+    font-size: 3rem; 
+    color: var(--colour-3);
+}
+
+.signup-link {
+    text-decoration: none;
+    color: var(--colour-1);
+}
+
+.signup-link:hover {
+    text-decoration: none;
+    color: var(--colour-3);
+}
